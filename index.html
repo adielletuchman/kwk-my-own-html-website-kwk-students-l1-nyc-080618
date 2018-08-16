@@ -2,11 +2,90 @@
 
 <html lang="en">
   <head>
+
     <meta charset="utf-8">
-    <title>Your Title Goes Here</title>
+    <title> All About Rena 🤙🏼 </title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!-- Design Your Site Here! -->
+    <h1 class = "bclass"> <u>ALL ABOUT RENA</u> </h1>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    
+    <div class="grid-container">
+  <div class = "adiellesampleclass"> 
+  <h2 class = "adiellesampleclass"> HOBBIES </h2>  
+  
+  
+    <div>    </div>
+      <h3> 
+        <ul>
+          <li> tennis </li>
+          <li> guitar </li>
+          <li> boating </li>
+          <li> beach'n </li>
+      
+        </ul>
+      
+      
+      </h3>
+    <h2> FOOD </h2>
+    <div>    </div>
+      <h3> 
+        <ul>
+          <li> burritos </li>
+          <li> mac 'n cheese </li>
+          <li> cookies </li>
+      
+        </ul>
+        
+    <h2> STORES </h2>
+    <div>    </div>
+      <h3> 
+        <ul>
+          <li> Forever 21 </li>
+          <li> Nordstrom </li>
+          <li> Zaful </li>
+          <li> Target </li>
+          <li> Zara </li>
+      
+        </ul>
+      </div>
+  <div class="grid-item"><img src= "https://i.paste.pics/20e75d16bc0165d7f0435aae73d982a5.png" border="8"> </div>
+    
+    <h1> xoxo,  </h1>
+    <h1 class = "adielleclass"> Adielle <u>AKA</u> your elbow buddy ❤️ </h1>
+    
+ <h2 class="w3-center"></h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://i.paste.pics/7d991a98a8c6edf4e1baf7c00ca40e97.png" style="width:100%">
+  <img class="mySlides" src="https://i.paste.pics/c718ccab1320761342f112d272b9ff19.png" style="width:100%">
+  <img class="mySlides" src="https://i.paste.pics/f9e1ed58757d11df13a44a6b1ff182a4.png" style="width:100%">
+  <img class="mySlides" src="https://i.paste.pics/fc05461fbd514b4e3fa096c376da3084.png" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
   </body>
 </html>
